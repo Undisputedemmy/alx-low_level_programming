@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-/* i will tell you what mate
- * keep trying it gets better
+/**
+ * main - Entry point
+ *
+  Return: Always 0 (Success)
  */
 int main(void)
 {
-	printf ("with proper grammer, but the outcome is a piece of art,\n");
+	printf("with proper grammer, but the outcome is a piece of art,\n");
 	return (0);
 }
