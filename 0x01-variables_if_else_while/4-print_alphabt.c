@@ -8,9 +8,10 @@
  * Return: Always 0 (Success!)
  */
 
-int main (void)
+int main(void)
 {
 	char low;
+
 	low = 'a';
 	while (low <= 'z')
 	{
