@@ -9,11 +9,11 @@
 int main(void)
 {
 	char word[8] = "_putchar"
-	int n;
+	int i;
 
-	for (n = 0; n < 8; n++)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(word[n]);
+		_putchar(word[i]);
 	}
 	_putchar('\n');
 	return (0);
