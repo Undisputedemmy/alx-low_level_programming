@@ -1,22 +1,21 @@
-#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 
 /**
  * main - check description
  *
- * Description: It prints the _putchar followed by a new line.
- *
- * Return: Always 0.
+ * Return: Always 0 (Success!)
  */
 int main(void)
 {
-	char say[8] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8; i++)
+	char word[8] = "_putchar"
+	int n;
+	
+	for (n = 0; n < 8; n++)
 	{
-		_putchar(say[i]);
+		_putchar(word[n]);
 	}
-	_putchar(\n);
+	_putchar('\n');
 	return (0);
 }
+
