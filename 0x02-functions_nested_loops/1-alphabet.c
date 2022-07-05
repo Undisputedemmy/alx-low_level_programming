@@ -1,11 +1,11 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
  * print_alphabet - No entry point
  *
- * Return: Always 0 (success!)
+ * Return: On success Nothing.
  */
+
 
 void print_alphabet(void)
 {
@@ -17,4 +17,3 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
-

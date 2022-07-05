@@ -4,7 +4,9 @@
 /**
  * main - check description
  *
- * Return: Always 0 (Success!)
+ * Description: It prints the word Holberton, followed by a new line.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {

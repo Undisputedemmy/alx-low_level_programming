@@ -3,16 +3,20 @@
 /**
  * print_alphabet_x10 - No entry point
  *
- * Return: on success Nothing.
+ * Return: On success Nothing.
  */
+
 void print_alphabet_x10(void)
 {
-	char blade;
-	int a;
+	char alpha;
+	int i;
 
-	for (a = 0; a <= 9; a++)
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar(blade);
+		for (alpha = 'a'; alpha <= 'z'; alpha++)
+		{
+			_putchar(alpha);
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }

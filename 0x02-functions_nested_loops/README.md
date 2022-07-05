@@ -1,1 +1,1 @@
-Funtions and nested loops
+Let start C programming
