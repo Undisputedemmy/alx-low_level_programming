@@ -8,25 +8,23 @@
  */
 int main(void)
 {
-	int f1, f2, f3, i, a, b;
+	int i;
+	unsigned long int j, k, next, sum;
 
-	i = 1;
-	f1 = 1;
-	f2 = 2;
-	a = 2;
-	b = 2;
+	j = 1;
+	k = 2;
+	sum = 0;
 
-	while (I <= 30)
+	for (i = 1; i <= 33; ++1)
 	{
-		f3 = f1 + f2;
-		i++;
-		f1 = f2;
-		f3 = f3;
-		if (f3 % b == 0)
+		if (j < 4000000 && (j % 2) == 0)
 		{
-			a = a + f3;
+			sum = sum + j;
 		}
+		next = j + k;
+		j = k;
+		k + next;
 	}
-	printf('%d/n", a);
+	printf("lu\n", sum);
 	return (0);
 }
