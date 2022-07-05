@@ -8,7 +8,7 @@
  * Return: last digit of number n
  */
 
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
 	r = r % 10;
 
