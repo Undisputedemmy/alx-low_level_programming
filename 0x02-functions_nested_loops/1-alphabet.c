@@ -14,7 +14,6 @@ void print_alphabet(void)
 	{
 		-putchar(cd);
 	}
-	-putchar('\n);
-	return (0);
+	-putchar('\n');
 }
 
