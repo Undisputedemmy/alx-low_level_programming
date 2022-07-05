@@ -7,12 +7,12 @@
  */
 void print_alphabet_x10(void)
 {
-	char spell;
+	char blade;
 	int a;
 
 	for (a = 0; a <= 9; a++)
 	{
-		_putchar(spell);
+		_putchar(blade);
 	}
 	_putchar('\n');
 }
