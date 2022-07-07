@@ -11,8 +11,7 @@
 int main(void)
 {
 	char low;
-
-	low = 'a';
+	 low = 'a';
 	while (low <= 'z')
 	{
 		if (low != 'e' && low != 'q')
