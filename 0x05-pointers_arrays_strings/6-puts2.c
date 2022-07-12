@@ -7,14 +7,14 @@
 
 void puts2(char *str)
 {
-	int tam = 0, i;
+	int try = 0, i;
 
-	while (str[tam] != '\0')
+	while (str[try] != '\0')
 	{
-		tam++;
+		try++;
 	}
 	i = 0;
-	while (i < tam)
+	while (i < try)
 	{
 		if (i % 2 == 0)
 		{
