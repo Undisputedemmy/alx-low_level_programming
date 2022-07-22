@@ -1,27 +1,24 @@
 #include "main.h"
 
 /**
-  * _strcat - concatenates two string
-  * @dest: string destiny
-  * @src: string to appends
-  * Return: a pointer to dest
-  */
+ *_strcat - This is the main copy
+ *@dest: This is my dest
+ *@src: This is my source
+ *
+ * Return: This return to the result
+ */
 
 char *_strcat(char *dest, char *src)
 {
-	int d = 0, s = 0;
+	int a, b;
 
-	while (dest[d] != '\0')
+	for (a = 0; dest[a] != '\0'; a++)
 	{
-		d++;
 	}
-	while (src[s] != '\0')
+	for (b = 0; src[b] != '\0'; b++)
 	{
-		dest[d] = src[s];
-		d++;
-		s++;
+	dest[a] = src[b];
+	a++;
 	}
-	dest[d] = '\0';
-
 	return (dest);
 }

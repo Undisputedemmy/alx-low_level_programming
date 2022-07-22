@@ -1,26 +1,25 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
-* *_strpbrk - locates first occurance in a string
-* @s: the string pointed to
-* @accept: the character to found
-*
-* Return: pointer to dest.
-*/
-
+ * _strpbrk - This is my function
+ * @s: This is my entry
+ * @accept: This is my second entry
+ * Return: This is my return
+ */
 char *_strpbrk(char *s, char *accept)
 {
-	int i, j;
+	unsigned int a, b;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (a = 0; s[a] != '\0'; a++)
 	{
-	for (j = 0; accept[j] != '\0'; j++)
-	{
-		if (s[i] == accept[j])
+		for (b = 0; accept[b] != '\0'; b++)
 		{
-		return (s + i);
+			if (accept[b] == s[a])
+			{
+				return (&s[a]);
+			}
 		}
 	}
-	}
-	return (0);
+	return (NULL);
 }

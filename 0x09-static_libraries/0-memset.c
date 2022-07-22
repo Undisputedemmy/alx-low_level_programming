@@ -1,23 +1,20 @@
 #include "main.h"
 
 /**
-* *_memset - fills memory with a constant byte
-* @s: the string pointed to
-* @b: the character to copy
-* @n: the size to print
-*
-* Return: Pointer to s.
-*/
-
+ * _memset - This is my function copy the number the character to S
+ * @s: This is my entry and return
+ * @b: This is the character to copy
+ * @n: This is the number of Bytes
+ *
+ * Return: This is my result and Return S
+ */
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *p = s;
-	unsigned int i;
+	unsigned int a;
 
-	for (i = 0; i < n; i++)
+	for (a = 0; a < n ; a++)
 	{
-		*p = b;
-		p++;
+		s[a] = b;
 	}
 	return (s);
 }

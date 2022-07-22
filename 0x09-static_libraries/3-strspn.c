@@ -1,30 +1,31 @@
 #include "main.h"
-
 /**
-* *_strspn - length prefix
-* @s: the string
-* @accept: the string to compare
-*
-* Return: pointer to dest.
-*/
+ * _strspn - This is my function
+ * @s: This is the string literal
+ * @accept: This is the second string
+ *
+ * Return: This is the equal string to S
+ */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j;
+	unsigned int a, b, c;
 
-	for (i = 0; s[i]; i++)
+	c = 0;
+	for (a = 0; s[a] != '\0'; a++)
 	{
-	for (j = 0; accept[j]; j++)
-	{
-		if (s[i] == accept[j])
+		for (b = 0; accept[b] != '\0'; b++)
 		{
-			break;
+			if (accept[b] == s[a])
+			{
+				c++;
+				break;
+			}
 		}
-	}
-		if (!accept[j])
+		if (accept[b] != s[a])
 		{
 		break;
 		}
 	}
-	return (i);
+	return (c);
 }

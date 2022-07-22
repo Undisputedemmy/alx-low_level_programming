@@ -1,26 +1,27 @@
 #include "main.h"
 
 /**
-* _strncat - concatenates two string
-* @dest: string destiny
-* @src: string to appends
-* @n: number of bytes
-* Return: a pointer to dest
-*/
+ * _strncat - THis is the main
+ * @dest: This is the dest
+ * @src: This is the src
+ * @n: Thi is n
+ * Return: This is my return
+ */
 char *_strncat(char *dest, char *src, int n)
 {
-	int d = 0, s = 0;
+	int a, b;
 
-	while (dest[d] != '\0')
+	for (a = 0; dest[a] != '\0'; a++)
 	{
-		d++;
 	}
-	while (src[s] != '\0' && s < n)
+	for (b = 0; b < n && src[b] != '\0'; b++)
 	{
-		dest[d] = src[s];
-		d++;
-		s++;
+		dest[a] = src[b];
+		a++;
 	}
-	dest[d] = '\0';
+	if (b < n)
+	{
+	dest[a] = '\0';
+	}
 	return (dest);
 }

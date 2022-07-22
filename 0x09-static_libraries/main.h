@@ -1,8 +1,7 @@
-#ifdef main_h
-#define main_h
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
-
-nt _putchar(char c);
+int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int n);
